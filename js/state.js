@@ -26,7 +26,7 @@ var InputState = React.createClass({
     }
 });
 
-React.render(
+ReactDOM.render(
     <InputState />,
     document.getElementById("inputState")
 )

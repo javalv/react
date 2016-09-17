@@ -4,7 +4,7 @@ var Hello = React.createClass({
     }
 })
 
-React.render(
+ReactDOM.render(
     <Hello name="zhangsan " />,
     document.getElementById('example')
 );
